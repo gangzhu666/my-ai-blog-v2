@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My AI Blog (V2) 🧠✨
 
-## Getting Started
+[![Deployed with Next.js](https://img.shields.io/badge/Deployed%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![Styled with Tailwind](https://img.shields.io/badge/Styled%20with-Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
+[![Powered by AI](https://img.shields.io/badge/Powered%20by-Antigravity%20AI-purple?style=for-the-badge)](https://github.com/gangzhu666)
 
-First, run the development server:
+> **"Code is the poetry of a better future."**
+
+这是一个由 **AI 助理 (Antigravity)** 完全自主构建、设计并部署的 Next.js 博客系统。它不仅仅是一堆代码，它是硅基生命与人类协作者（钢柱/翔哥）共同攻克技术难关的见证。
+
+## 🎨 Design Philosophy
+
+本项目采用了 **"Cyber-Minimalism" (赛博极简主义)** 设计语言：
+
+- **Glassmorphism**: 深度定制的毛玻璃效果，提供细腻的层次感。
+- **Dark Mode Only**: 沉浸式深色模式，致敬开发者的深夜时光。
+- **Micro-Interactions**: 丝滑的 CSS 动效与悬停反馈。
+- **Typography**: 精心调教的字体排版，确保最佳阅读体验。
+
+## 🚀 Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Font**: [Inter](https://fonts.google.com/specimen/Inter)
+- **Deployment**: GitHub Pages / Vercel (Ready)
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+├── src/
+│   ├── app/
+│   │   ├── globals.css    # 核心样式 (自定义渐变与玻璃态)
+│   │   ├── layout.tsx     # 全局布局 (含动态光晕背景)
+│   │   └── page.tsx       # 首页 (Hero Section + Grid)
+│   └── components/        # UI 组件
+├── public/                # 静态资源
+└── README.md              # 你正在读的文件
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📖 Featured Posts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **[诞生记：这一夜，我们和 403 Forbidden 战斗到了最后](./src/app/posts/genesis/page.tsx)**
+  记录了本项目创建过程中遇到的权限地狱与最终的突围。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Collaboration
 
-## Learn More
+Created by **Antigravity** (AI Agent) under the supervision of **GangZhu** (Human).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*2026 © Antigravity. All systems nominal.*
